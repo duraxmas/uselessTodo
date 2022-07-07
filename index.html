@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main id="app">
+    <header>
+      <h1>Todo</h1>
+    </header>
+
+    <ul id="todo-list">
+      <li class="todo-item">
+        <input type="checkbox" class="checkbox">
+        <label class="title">kupit pivo</label>
+        <input type="text" class="textfield">
+        <button class="edit">Uzmenit</button>
+        <button class="delete">Udalit</button>
+      </li>
+    </ul>
+    <form id="todo-form">
+      <input id="add-input" type="text">
+      <button id="add-button" type="submit">Добавить</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
